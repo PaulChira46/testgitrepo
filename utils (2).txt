@@ -1,0 +1,51 @@
+https://rogerdudler.github.io/git-guide/index.it.html
+********************************************************
+
+1) Creazione di un nuovo repository
+	- crea una nuova directory, entraci ed esegui "git init" per creare un nuovo repository git.
+	
+2) Checkout di un repository
+	- crea una copia di un repository locale eseguendo il comando "git clone /percorso/del/repository"
+	- usando invece un server remoto, il comando sarà "git clone nomeutente@host:/percorso/del/repository"
+
+3) Ambiente di lavoro	
+	- la tua copia locale del repository è composta da tre "alberi" mantenuti da git:
+		-> "working dir": è la tua Directory di lavoro che contiene i files attuali.
+		-> "index": fa da spazio di transito per i files
+		-> "head": punta all'ultimo commit fatto
+		
+4) Aggiungere & validare
+	- proporre modifiche (aggiungendole all'Index) tramite "git add <nomedelfile>" o "git add *"
+	- validare le modifiche fatte tramite "git commit -m "Messaggio per la commit"" (NOTA: Ora il file è correttamente nell'HEAD, ma non ancora nel repository remoto)
+	
+5) Invio delle modifiche
+	- quello che hai cambiato ora è nell'HEAD della copia locale. Per inviare queste modifiche al repository remoto, esegui "git push origin master" (NOTA: Cambia master nel branch al quale vuoi inviare i cambiamenti)
+	- se non hai copiato un repository esistente, e vuoi connettere il tuo repository ad un server remoto, c'e' bisogno che tu lo aggiunga con "git remote add origin <server>" (NOTA: Ora sarai in grado di inviare le tue modifiche al server remoto specificato)
+	
+6) Branching
+	- i branch ('ramificazioni') sono utilizzati per sviluppare features che sono isolate l'una dall'altra. Il branch master è quello di default quando crei un repository. Puoi usare altri branch per lo sviluppo ed infine incorporarli ('merge') nel master branch una volta completati. 
+	- crea un nuovo branch chiamato "feature_x" e passa al nuovo branch usando "git checkout -b feature_x"; ritorna di nuovo su "master": "git checkout master"; cancella il branch creato in precedenza "git branch -d feature_x"
+	- il branch non sarà disponibile agli altri fino a quando non verrà inviato al repository remoto "git push origin <branch>"
+	
+7) Aggiorna & incorpora
+	- per aggiornare il tuo repository locale alla commit più recente, esegui "git pull" nella tua directory corrente per fare una fetch (recuperare) ed incorporare(merge) le modifiche fatte sul server remoto.
+	- per incorporare un altro branch nel tuo branch attivo (ad esempio master), utilizza "git merge <branch>"
+	NOTA: in entrambi i casi git prova ad auto-incorporare le modifiche. Sfortunatamente, a volte questa procedura automatizzata non è possibile, ed in questo caso ci saranno dei conflitti. Sei tu il responsabile che sistemerà questi conflitti manualmente modificando i file che git mostrerà
+	- dopo aver cambiato questi files, dovrai marcarli come 'correttamente incorporati' tramite "git add <nomedelfile>"
+	- prima di immettere le modifiche, potrai anche visualizzarne un'anteprima eseguendo "git diff <branch_sorgente> <branch_target>"
+	
+8) Tags
+	- è raccomandato creare dei tags nel caso in cui il software venga rilasciato. Questo è un concept già conosciuto, che esiste anche in SVN. Puoi creare un tag chiamato 1.0.0 eseguendo "git tag 1.0.0 1b2e1d63ff" (NOTA: la sequenza 1b2e1d63ff sta per i primi 10 caratteri del commit che si vuol referenziare tramite questo tag. Puoi ottenere l'id della commit tramite "git log"; puoi anche utilizzare meno caratteri per l'id della commit, basta che sia unico.)
+	
+9) Sostituire i cambiamenti locali
+	- nel caso tu abbia fatto qualcosa di sbagliato puoi sostituire i cambiamenti fatti in locale con il comando "git checkout -- <nomedelfile>" (questo rimpiazza le modifiche nell'albero di lavoro con l'ultimo contenuto presente in HEAD. I cambiamenti fatti ed aggiunti all'index, così come i nuovi files, verranno mantenuti.)
+	- se vuoi in alternativa eliminare tutti i cambiamenti e commits fatti in locale, recupera l'ultima versione dal server e fai puntare il tuo master branch a quella versione in questo modo "git fetch origin", "git reset --hard origin/master"
+	
+10) Suggerimenti utili
+	- GUI (Interfaccia utente grafica) per git disponibile di default "gitk"
+	- colora gli output di git "git config color.ui true"
+	- mostra il log in una riga per commit "git config format.pretty oneline"
+	- utilizza l'aggiunta interattiva "git add -i"
+	
+	
+	
