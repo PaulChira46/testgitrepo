@@ -1,4 +1,5 @@
 https://rogerdudler.github.io/git-guide/index.it.html
+********************************************************
 
 1) Creazione di un nuovo repository
 	- crea una nuova directory, entraci ed esegui "git init" per creare un nuovo repository git.
