@@ -1,0 +1,220 @@
+/opt/FFmpegTranscoder:
+total 12
+drwxrwxr-x  10 otmm opentext  157 Dec 20 15:18 .
+drwxr-xr-x. 11 root root      218 Nov 21 15:47 ..
+drwxrwxr-x   5 otmm opentext  160 Nov 19 17:23 ant
+drwxrwxr-x   2 otmm opentext   39 Nov 19 18:02 bin
+-rwxrwxr-x   1 otmm opentext 1958 Oct 26  2017 build.xml
+drwxrwxr-x   2 otmm opentext  228 Dec 13 15:38 conf
+drwxrwxr-x   2 otmm opentext  115 Nov 19 17:33 ddl
+-rw-------   1 otmm opentext    6 Dec 20 15:18 ffmpeg.pid
+drwxrwxr-x   3 otmm opentext   17 Nov 19 17:23 install
+drwxrwxr-x   2 otmm opentext 4096 Nov 19 17:23 lib
+drwxrwxr-x   3 otmm opentext   55 Nov 19 18:13 logs
+drwxrwxr-x   2 otmm opentext  196 Nov 19 17:23 UninstallFFmpegTranscoder
+
+/opt/FFmpegTranscoder/ant:
+total 348
+drwxrwxr-x  5 otmm opentext    160 Nov 19 17:23 .
+drwxrwxr-x 10 otmm opentext    157 Dec 20 15:18 ..
+drwxrwxr-x  2 otmm opentext    225 Nov 19 17:23 bin
+drwxrwxr-x  3 otmm opentext    309 Nov 19 17:23 etc
+-rwxrwxr-x  1 otmm opentext  11940 Dec 20  2010 fetch.xml
+-rwxrwxr-x  1 otmm opentext   4566 Dec 20  2010 get-m2.xml
+-rwxrwxr-x  1 otmm opentext    128 Dec 20  2010 INSTALL
+-rwxrwxr-x  1 otmm opentext  87697 Dec 20  2010 KEYS
+drwxrwxr-x  2 otmm opentext   4096 Nov 19 17:23 lib
+-rwxrwxr-x  1 otmm opentext  15561 Dec 20  2010 LICENSE
+-rwxrwxr-x  1 otmm opentext    224 Dec 20  2010 NOTICE
+-rwxrwxr-x  1 otmm opentext   4216 Dec 20  2010 README
+-rwxrwxr-x  1 otmm opentext 208344 Dec 20  2010 WHATSNEW
+
+/opt/FFmpegTranscoder/ant/bin:
+total 72
+drwxrwxr-x 2 otmm opentext  225 Nov 19 17:23 .
+drwxrwxr-x 5 otmm opentext  160 Nov 19 17:23 ..
+-rwxrwxr-x 1 otmm opentext 9997 Dec 20  2010 ant
+-rwxrwxr-x 1 otmm opentext 7472 Dec 20  2010 ant.bat
+-rwxrwxr-x 1 otmm opentext 2857 Dec 20  2010 ant.cmd
+-rwxrwxr-x 1 otmm opentext 3410 Dec 20  2010 antenv.cmd
+-rwxrwxr-x 1 otmm opentext  861 Dec 20  2010 antRun
+-rwxrwxr-x 1 otmm opentext 1536 Dec 20  2010 antRun.bat
+-rwxrwxr-x 1 otmm opentext 2199 Dec 20  2010 antRun.pl
+-rwxrwxr-x 1 otmm opentext 3219 Dec 20  2010 complete-ant-cmd.pl
+-rwxrwxr-x 1 otmm opentext 4315 Dec 20  2010 envset.cmd
+-rwxrwxr-x 1 otmm opentext 1116 Dec 20  2010 lcp.bat
+-rwxrwxr-x 1 otmm opentext 4422 Dec 20  2010 runant.pl
+-rwxrwxr-x 1 otmm opentext 3401 Dec 20  2010 runant.py
+-rwxrwxr-x 1 otmm opentext 1817 Dec 20  2010 runrc.cmd
+
+/opt/FFmpegTranscoder/ant/etc:
+total 244
+drwxrwxr-x 3 otmm opentext   309 Nov 19 17:23 .
+drwxrwxr-x 5 otmm opentext   160 Nov 19 17:23 ..
+-rwxrwxr-x 1 otmm opentext 19643 Dec 20  2010 ant-bootstrap.jar
+-rwxrwxr-x 1 otmm opentext  4945 Dec 20  2010 changelog.xsl
+drwxrwxr-x 2 otmm opentext    89 Nov 19 17:23 checkstyle
+-rwxrwxr-x 1 otmm opentext 19059 Dec 20  2010 coverage-frames.xsl
+-rwxrwxr-x 1 otmm opentext 19481 Dec 20  2010 jdepend-frames.xsl
+-rwxrwxr-x 1 otmm opentext 12033 Dec 20  2010 jdepend.xsl
+-rwxrwxr-x 1 otmm opentext 29045 Dec 20  2010 junit-frames-xalan1.xsl
+-rwxrwxr-x 1 otmm opentext 35407 Dec 20  2010 junit-frames.xsl
+-rwxrwxr-x 1 otmm opentext 18797 Dec 20  2010 junit-noframes.xsl
+-rwxrwxr-x 1 otmm opentext  6295 Dec 20  2010 log.xsl
+-rwxrwxr-x 1 otmm opentext 18463 Dec 20  2010 maudit-frames.xsl
+-rwxrwxr-x 1 otmm opentext 38859 Dec 20  2010 mmetrics-frames.xsl
+-rwxrwxr-x 1 otmm opentext  6394 Dec 20  2010 tagdiff.xsl
+
+/opt/FFmpegTranscoder/ant/etc/checkstyle:
+total 24
+drwxrwxr-x 2 otmm opentext    89 Nov 19 17:23 .
+drwxrwxr-x 3 otmm opentext   309 Nov 19 17:23 ..
+-rwxrwxr-x 1 otmm opentext 11321 Dec 20  2010 checkstyle-frames.xsl
+-rwxrwxr-x 1 otmm opentext  1402 Dec 20  2010 checkstyle-text.xsl
+-rwxrwxr-x 1 otmm opentext  4909 Dec 20  2010 checkstyle-xdoc.xsl
+
+/opt/FFmpegTranscoder/ant/lib:
+total 2428
+drwxrwxr-x 2 otmm opentext    4096 Nov 19 17:23 .
+drwxrwxr-x 5 otmm opentext     160 Nov 19 17:23 ..
+-rwxrwxr-x 1 otmm opentext    5748 Dec 20  2010 ant-antlr.jar
+-rwxrwxr-x 1 otmm opentext    3178 Dec 20  2010 ant-antlr.pom
+-rwxrwxr-x 1 otmm opentext    8746 Dec 20  2010 ant-apache-bcel.jar
+-rwxrwxr-x 1 otmm opentext    2911 Dec 20  2010 ant-apache-bcel.pom
+-rwxrwxr-x 1 otmm opentext    3931 Dec 20  2010 ant-apache-bsf.jar
+-rwxrwxr-x 1 otmm opentext    3132 Dec 20  2010 ant-apache-bsf.pom
+-rwxrwxr-x 1 otmm opentext    3059 Dec 20  2010 ant-apache-log4j.jar
+-rwxrwxr-x 1 otmm opentext    2836 Dec 20  2010 ant-apache-log4j.pom
+-rwxrwxr-x 1 otmm opentext   39638 Dec 20  2010 ant-apache-oro.jar
+-rwxrwxr-x 1 otmm opentext    3055 Dec 20  2010 ant-apache-oro.pom
+-rwxrwxr-x 1 otmm opentext    3761 Dec 20  2010 ant-apache-regexp.jar
+-rwxrwxr-x 1 otmm opentext    2851 Dec 20  2010 ant-apache-regexp.pom
+-rwxrwxr-x 1 otmm opentext    4084 Dec 20  2010 ant-apache-resolver.jar
+-rwxrwxr-x 1 otmm opentext    2854 Dec 20  2010 ant-apache-resolver.pom
+-rwxrwxr-x 1 otmm opentext    2295 Dec 20  2010 ant-apache-xalan2.jar
+-rwxrwxr-x 1 otmm opentext    3806 Dec 20  2010 ant-apache-xalan2.pom
+-rwxrwxr-x 1 otmm opentext    3913 Dec 20  2010 ant-commons-logging.jar
+-rwxrwxr-x 1 otmm opentext    2950 Dec 20  2010 ant-commons-logging.pom
+-rwxrwxr-x 1 otmm opentext   85511 Dec 20  2010 ant-commons-net.jar
+-rwxrwxr-x 1 otmm opentext    3215 Dec 20  2010 ant-commons-net.pom
+-rwxrwxr-x 1 otmm opentext   22265 Dec 20  2010 ant-jai.jar
+-rwxrwxr-x 1 otmm opentext    3298 Dec 20  2010 ant-jai.pom
+-rwxrwxr-x 1 otmm opentext 1933743 Dec 20  2010 ant.jar
+-rwxrwxr-x 1 otmm opentext    7960 Dec 20  2010 ant-javamail.jar
+-rwxrwxr-x 1 otmm opentext    3210 Dec 20  2010 ant-javamail.pom
+-rwxrwxr-x 1 otmm opentext    8222 Dec 20  2010 ant-jdepend.jar
+-rwxrwxr-x 1 otmm opentext    3005 Dec 20  2010 ant-jdepend.pom
+-rwxrwxr-x 1 otmm opentext    6739 Dec 20  2010 ant-jmf.jar
+-rwxrwxr-x 1 otmm opentext    2819 Dec 20  2010 ant-jmf.pom
+-rwxrwxr-x 1 otmm opentext   40175 Dec 20  2010 ant-jsch.jar
+-rwxrwxr-x 1 otmm opentext    3075 Dec 20  2010 ant-jsch.pom
+-rwxrwxr-x 1 otmm opentext    7120 Dec 20  2010 ant-junit4.jar
+-rwxrwxr-x 1 otmm opentext    2913 Dec 20  2010 ant-junit4.pom
+-rwxrwxr-x 1 otmm opentext  102220 Dec 20  2010 ant-junit.jar
+-rwxrwxr-x 1 otmm opentext    4069 Dec 20  2010 ant-junit.pom
+-rwxrwxr-x 1 otmm opentext   12322 Dec 20  2010 ant-launcher.jar
+-rwxrwxr-x 1 otmm opentext    2419 Dec 20  2010 ant-launcher.pom
+-rwxrwxr-x 1 otmm opentext   10392 Dec 20  2010 ant-netrexx.jar
+-rwxrwxr-x 1 otmm opentext    4018 Dec 20  2010 ant-netrexx.pom
+-rwxrwxr-x 1 otmm opentext    4688 Dec 20  2010 ant-parent.pom
+-rwxrwxr-x 1 otmm opentext    9876 Dec 20  2010 ant.pom
+-rwxrwxr-x 1 otmm opentext    7555 Dec 20  2010 ant-swing.jar
+-rwxrwxr-x 1 otmm opentext    2744 Dec 20  2010 ant-swing.pom
+-rwxrwxr-x 1 otmm opentext   15201 Dec 20  2010 ant-testutil.jar
+-rwxrwxr-x 1 otmm opentext    2985 Dec 20  2010 ant-testutil.pom
+-rwxrwxr-x 1 otmm opentext    2525 Dec 20  2010 libraries.properties
+-rwxrwxr-x 1 otmm opentext     154 Dec 20  2010 README
+
+/opt/FFmpegTranscoder/bin:
+total 148
+drwxrwxr-x  2 otmm opentext     39 Nov 19 18:02 .
+drwxrwxr-x 10 otmm opentext    157 Dec 20 15:18 ..
+-rwxrwxrwx  1 otmm opentext   2131 Nov 19 18:02 ffmpegService
+-rwxrwxrwx  1 otmm opentext 143745 Nov 19 18:02 jsvc
+
+/opt/FFmpegTranscoder/conf:
+total 28
+drwxrwxr-x  2 otmm opentext  228 Dec 13 15:38 .
+drwxrwxr-x 10 otmm opentext  157 Dec 20 15:18 ..
+-rw-rw-r--  1 otmm opentext   45 Nov 19 18:02 FFmpeg_SEC_Srv.cfg
+-rwxrwxr-x  1 otmm opentext 1729 Oct 26  2017 log4j.xml
+-rw-rw-r--  1 otmm opentext  886 Dec 13 15:38 transcoder.properties
+-rw-rw-r--  1 otmm opentext  920 Nov 19 17:29 transcoder.properties.1.backup
+-rw-rw-r--  1 otmm opentext  920 Nov 19 17:43 transcoder.properties.2.backup
+-rw-rw-r--  1 otmm opentext  920 Nov 19 18:02 transcoder.properties.3.backup
+-rw-rw-r--  1 otmm opentext  920 Nov 19 17:23 transcoder.properties.backup
+
+/opt/FFmpegTranscoder/ddl:
+total 16
+drwxrwxr-x  2 otmm opentext 115 Nov 19 17:33 .
+drwxrwxr-x 10 otmm opentext 157 Dec 20 15:18 ..
+-rwxrwxr-x  1 otmm opentext 379 Oct 26  2017 ffmpegddlhana.sql
+-rwxrwxr-x  1 otmm opentext 365 Oct 26  2017 ffmpegddlmssql.sql
+-rwxrwxr-x  1 otmm opentext 284 Oct 26  2017 ffmpegddloracle.sql
+-rwxrwxr-x  1 otmm opentext 676 Oct 26  2017 ffmpegddlpostgresql.sql
+
+/opt/FFmpegTranscoder/install:
+total 0
+drwxrwxr-x  3 otmm opentext  17 Nov 19 17:23 .
+drwxrwxr-x 10 otmm opentext 157 Dec 20 15:18 ..
+drwxrwxr-x  2 otmm opentext  24 Nov 19 17:27 ant
+
+/opt/FFmpegTranscoder/install/ant:
+total 8
+drwxrwxr-x 2 otmm opentext   24 Nov 19 17:27 .
+drwxrwxr-x 3 otmm opentext   17 Nov 19 17:23 ..
+-rwxrwxr-x 1 otmm opentext 7251 Oct 26  2017 ffmpeg.xml
+
+/opt/FFmpegTranscoder/lib:
+total 10708
+drwxrwxr-x  2 otmm opentext    4096 Nov 19 17:23 .
+drwxrwxr-x 10 otmm opentext     157 Dec 20 15:18 ..
+-rwxrwxr-x  1 otmm opentext   24283 Oct 26  2017 commons-daemon-1.0.15.jar
+-rwxrwxr-x  1 otmm opentext  174167 Oct 26  2017 commons-dbcp2-2.1.1.jar
+-rwxrwxr-x  1 otmm opentext  109043 Oct 26  2017 commons-io-1.4.jar
+-rwxrwxr-x  1 otmm opentext  261809 Oct 26  2017 commons-lang-2.4.jar
+-rwxrwxr-x  1 otmm opentext   60841 Oct 26  2017 commons-logging-1.1.1.jar
+-rwxrwxr-x  1 otmm opentext  111969 Oct 26  2017 commons-pool2-2.4.2.jar
+-rwxrwxr-x  1 otmm opentext   32522 Oct 26  2017 ffmpeg-transcoder.jar
+-rwxrwxr-x  1 otmm opentext  727567 Oct 26  2017 httpclient-4.5.jar
+-rwxrwxr-x  1 otmm opentext  322234 Oct 26  2017 httpcore-4.4.1.jar
+-rwxrwxr-x  1 otmm opentext  367444 Oct 26  2017 log4j.jar
+-rwxrwxr-x  1 otmm opentext  920011 Oct 26  2017 ngdbc.jar
+-rwxrwxr-x  1 otmm opentext 2111220 Oct 26  2017 ojdbc6.jar
+-rwxrwxr-x  1 otmm opentext  656753 Oct 26  2017 postgresql-9.4-1204.jdbc41.jar
+-rwxrwxr-x  1 otmm opentext  422699 Oct 26  2017 sqljdbc4.jar
+-rwxrwxr-x  1 otmm opentext  105681 Oct 26  2017 TEAMS-common.jar
+-rwxrwxr-x  1 otmm opentext 2899336 Oct 26  2017 TEAMS-sdk.jar
+-rwxrwxr-x  1 otmm opentext  243651 Oct 26  2017 xdb.jar
+-rwxrwxr-x  1 otmm opentext 1381452 Oct 26  2017 xmlparserv2.jar
+
+/opt/FFmpegTranscoder/logs:
+total 48
+drwxrwxr-x  3 otmm opentext    55 Nov 19 18:13 .
+drwxrwxr-x 10 otmm opentext   157 Dec 20 15:18 ..
+-rw-------  1 otmm opentext 47119 Dec 20 15:22 ffmpeg-transcoder.log
+drwxrwxr-x  2 otmm opentext   322 Nov 19 18:13 installation
+
+/opt/FFmpegTranscoder/logs/installation:
+total 112
+drwxrwxr-x 2 otmm opentext   322 Nov 19 18:13 .
+drwxrwxr-x 3 otmm opentext    55 Nov 19 18:13 ..
+-rw-rw-r-- 1 otmm opentext    16 Nov 19 18:02 ffmpegddloracle.sql.log
+-rw------- 1 otmm opentext  9584 Dec 20 15:18 FFMPEG.err
+-rw------- 1 otmm opentext     0 Nov 19 18:13 FFMPEG.out
+-rwxr-xr-x 1 otmm opentext 21222 Nov 19 17:23 FFmpegTranscoder_Install_11_19_2018_17_23_43.log
+-rwxr-xr-x 1 otmm opentext 21466 Nov 19 17:29 FFmpegTranscoder_Install_11_19_2018_17_29_29.log
+-rwxr-xr-x 1 otmm opentext 21376 Nov 19 17:44 FFmpegTranscoder_Install_11_19_2018_17_43_43.log
+-rwxr-xr-x 1 otmm opentext 20461 Nov 19 18:02 FFmpegTranscoder_Install_11_19_2018_18_02_18.log
+-rw-rw-r-- 1 otmm opentext   333 Nov 19 18:02 security_file.log
+
+/opt/FFmpegTranscoder/UninstallFFmpegTranscoder:
+total 7268
+drwxrwxr-x  2 otmm opentext     196 Nov 19 17:23 .
+drwxrwxr-x 10 otmm opentext     157 Dec 20 15:18 ..
+-rwxrwxrwx  1 otmm opentext   93480 Nov 19 18:02 .com.zerog.registry.xml
+-rw-rw-r--  1 otmm opentext  337507 Nov 19 18:02 InstallScript.iap_xml
+-rwxr-xr-x  1 otmm opentext    3823 Nov 19 18:02 installvariables.properties
+-rw-rw-r--  1 otmm opentext 6913518 Nov 19 18:02 uninstaller.jar
+-rwxr-xr-x  1 otmm opentext   83377 Nov 19 18:02 Uninstall FFmpegTranscoder
+-rwxrwxr-x  1 otmm opentext    3289 Nov 19 18:02 Uninstall FFmpegTranscoder.lax
